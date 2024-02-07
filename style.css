@@ -376,9 +376,105 @@ footer{
 
 
 
-@media screen(max-width 769) {
-    
+@media (max-width: 800px) {
+    nav{
+        display: none;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .Request{
+     display: none;
+    }
+
+    section.hero{
+        text-align: center;
+        
+    }
+
+    .hero h1{
+        padding-top: 130px;
+        color: black;
+        font: size 50px; 
+
+    }
+    .hero p{
+        font-size: 20px;
+
+    }
+
+    section.assignment2{
+        display: block;
+    }
+
+    section.assignment2 img{
+      padding-left: 50px;
+    }
+    .info h5{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .info h2{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .my-button{
+        width: 200px;
+        height: 40px;
+        background: #E71800;
+        border: none;
+        margin-top: 25px;
+        margin-left: 250px;
+        margin-bottom: 30px;
+        font-size: large;
+        border-radius: 7px;
+        color: #fff;
+
+    }
+
+    section.assignment2 p{
+        justify-content: left;
+        padding-left: 50px;
+        font-weight: bold;
+    }
+
+    .carriers{
+        display: block;
+    }
+
+    .carriers h2{
+        padding-left: 190px ;
+        padding-top: 20px;
+    }
+
+    .carriers p{
+        padding-left: 190px;
+        padding-bottom:  20px;
+    }
+
+    .section1{
+        background: var(--Background, #FFBF14);
+        padding: 20px;
+        display: block;
+        height: 130px;
+        margin-top: 40px;
+    }
+
+    .colum{
+        text-align: center;
+    }
+
+    .colum p{
+        padding-top: 5px;
+    }
+
 }
+
 
 
 
